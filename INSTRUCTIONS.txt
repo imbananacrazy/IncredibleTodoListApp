@@ -9,7 +9,8 @@ Creating a React Native App for Windows
 4. If you get any errors about not being able to run scripts, enter ‘Set-ExecutionPolicy Unrestricted’ then try running the command(s) again 
 
 5. Run Android Studio after it has been installed. Go through the installation process with the default options selected. 
-After it has been installed, on the ‘Welcome to Android Studio’ page, click ‘More Actions’, then ‘Virtual Device Manager’, then press the play button and launch the ‘Medium Phone API’ 
+After it has been installed, on the ‘Welcome to Android Studio’ page, click ‘More Actions’, then ‘Virtual Device Manager’, then press the play button on a device. Create one if there
+isn't one there (https://developer.android.com/studio/run/managing-avds)
 
 6. Find a parent folder somewhere on your system to hold your application 
 
@@ -33,4 +34,9 @@ With your Virtual Android Device being open, type ‘a’ in the terminal. If yo
 It’s up to you. For these instructions, you will be declining (enter ‘n’) 
 
 15. Restart the app by running ‘npm run start’ or ‘npx expo start’. You may need to reload the app to see changes in your browser, phone, or Virtual Android Device. 
-Do this by typing ‘r’ in the terminal 
+Do this by typing ‘r’ in the terminal
+
+Additional Resources:
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+https://developer.android.com/studio/run/emulator
+https://developer.android.com/studio/run/managing-avds
