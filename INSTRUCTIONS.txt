@@ -8,7 +8,8 @@ Creating a React Native App for Windows
 
 4. If you get any errors about not being able to run scripts, enter ‘Set-ExecutionPolicy Unrestricted’ then try running the command(s) again 
 
-5. Run Android Studio after it has been installed. Go through the installation process with the default options selected. After it has been installed, on the ‘Welcome to Android Studio’ page, click ‘More Actions’, then ‘Virtual Device Manager’, then press the play button and launch the ‘Medium Phone API’ 
+5. Run Android Studio after it has been installed. Go through the installation process with the default options selected. 
+After it has been installed, on the ‘Welcome to Android Studio’ page, click ‘More Actions’, then ‘Virtual Device Manager’, then press the play button and launch the ‘Medium Phone API’ 
 
 6. Find a parent folder somewhere on your system to hold your application 
 
@@ -16,16 +17,20 @@ Creating a React Native App for Windows
 
 8. Open the terminal and enter the command ‘npx create-expo-app@latest appName’ with ‘appName’ being the name of the app you want (for example: ‘IncredibleTodoListApp’) 
 
-9. It will create a folder under the name you gave it. To continue after app creation, you need to be in the folder in the terminal. Enter ‘cd ./appName’ to enter the folder in the terminal. In the terminal, you should see the command line be in the folder of the app you created 
+9. It will create a folder under the name you gave it. To continue after app creation, you need to be in the folder in the terminal. 
+Enter ‘cd appName’ to enter the folder in the terminal. In the terminal, you should see the command line be in the folder of the app you created 
 
 10. To start the app, type ‘npm run start’ 
 
-11. After it has been started, you’ll see a QR code and a list of commands in the terminal (you may need to scroll). With your Virtual Android Device being open, type ‘a’ in the terminal. If your Virtual Android Device isn’t open, you can press ‘w’ and it’ll open a webpage in your browser 
+11. After it has been started, you’ll see a QR code and a list of commands in the terminal (you may need to scroll). 
+With your Virtual Android Device being open, type ‘a’ in the terminal. If your Virtual Android Device isn’t open, you can press ‘w’ and it’ll open a webpage in your browser 
 
 12. After a while, you may see an error screen on your Virtual Android Device. Just press the reload button or type ‘r’ in the terminal 
 
 13. You can press ‘Ctrl+C’ in the terminal to close the app. 
 
-14. Reset the app by typing ‘npm run reset-project'. It will ask if you want to move existing files to a new folder. It’s up to you. For these instructions, you will be declining (enter ‘n’) 
+14. Reset the app by typing ‘npm run reset-project'. It will ask if you want to move existing files to a new folder. 
+It’s up to you. For these instructions, you will be declining (enter ‘n’) 
 
-15. Restart the app by running ‘npm run start’ or ‘npx expo start’. You may need to reload the app to see changes in your browser, phone, or Virtual Android Device. Do this by typing ‘r’ in the terminal 
+15. Restart the app by running ‘npm run start’ or ‘npx expo start’. You may need to reload the app to see changes in your browser, phone, or Virtual Android Device. 
+Do this by typing ‘r’ in the terminal 
