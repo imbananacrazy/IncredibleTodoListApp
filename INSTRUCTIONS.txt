@@ -6,37 +6,40 @@ Creating a React Native App for Windows
 
 3. After installing Node.js, open PowerShell as Administrator. Check to see if it’s installed by typing ‘node -v’ and ‘npm -v’ 
 
-4. If you get any errors about not being able to run scripts, enter ‘Set-ExecutionPolicy Unrestricted’ then try running the command(s) again 
+4. If you get any errors about not being able to run scripts, enter ‘Set-ExecutionPolicy Unrestricted’ then try running the command(s) again
 
-5. Run Android Studio after it has been installed. Go through the installation process with the default options selected. 
+5. Install TypeScript by typing 'npm install -g typescript'. Check if it is installed using 'tsc -v'
+
+6. Run Android Studio after it has been installed. Go through the installation process with the default options selected. 
 After it has been installed, on the ‘Welcome to Android Studio’ page, click ‘More Actions’, then ‘Virtual Device Manager’, then press the play button on a device. Create one if there
 isn't one there (https://developer.android.com/studio/run/managing-avds)
 
-6. Find a parent folder somewhere on your system to hold your application 
+7. Find a parent folder somewhere on your system to hold your application 
 
-7. Open that parent folder in Visual Studio Code 
+8. Open that parent folder in Visual Studio Code 
 
-8. Open the terminal and enter the command ‘npx create-expo-app@latest appName’ with ‘appName’ being the name of the app you want (for example: ‘IncredibleTodoListApp’) 
+9. Open the terminal and enter the command ‘npx create-expo-app@latest appName’ with ‘appName’ being the name of the app you want (for example: ‘IncredibleTodoListApp’) 
 
-9. It will create a folder under the name you gave it. To continue after app creation, you need to be in the folder in the terminal. 
+10. It will create a folder under the name you gave it. To continue after app creation, you need to be in the folder in the terminal. 
 Enter ‘cd appName’ to enter the folder in the terminal. In the terminal, you should see the command line be in the folder of the app you created 
 
-10. To start the app, type ‘npm run start’ 
+11. To start the app, type ‘npm run start’ 
 
-11. After it has been started, you’ll see a QR code and a list of commands in the terminal (you may need to scroll). 
+12. After it has been started, you’ll see a QR code and a list of commands in the terminal (you may need to scroll). 
 With your Virtual Android Device being open, type ‘a’ in the terminal. If your Virtual Android Device isn’t open, you can press ‘w’ and it’ll open a webpage in your browser 
 
-12. After a while, you may see an error screen on your Virtual Android Device. Just press the reload button or type ‘r’ in the terminal 
+13. After a while, you may see an error screen on your Virtual Android Device. Just press the reload button or type ‘r’ in the terminal 
 
-13. You can press ‘Ctrl+C’ in the terminal to close the app. 
+14. You can press ‘Ctrl+C’ in the terminal to close the app. 
 
-14. Reset the app by typing ‘npm run reset-project'. It will ask if you want to move existing files to a new folder. 
+15. Reset the app by typing ‘npm run reset-project'. It will ask if you want to move existing files to a new folder. 
 It’s up to you. For these instructions, you will be declining (enter ‘n’) 
 
-15. Restart the app by running ‘npm run start’ or ‘npx expo start’. You may need to reload the app to see changes in your browser, phone, or Virtual Android Device. 
+16. Restart the app by running ‘npm run start’ or ‘npx expo start’. You may need to reload the app to see changes in your browser, phone, or Virtual Android Device. 
 Do this by typing ‘r’ in the terminal
 
 Additional Resources:
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 https://developer.android.com/studio/run/emulator
 https://developer.android.com/studio/run/managing-avds
+https://www.typescriptlang.org/download/
